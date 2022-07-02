@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+}
+.hov{
+    opacity: 50%;
+    margin-top: 10px;
+}
+
+.hov:hover{
+    color: white;
+}
+
+#showcase{
+    background-image: url('showcase.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#showcase h1{
+    font-size: 50px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+#showcase p{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+#showcase .readmore{
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: grey;
+    border: grey 1px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition-delay: 0.1s;
+
+}
+
+#showcase .readmore:hover{
+    background: grey;
+    color: white;
+}
+
+#section-a{
+    
+    background: #E8A0BF ;
+    font-size: medium;
+    display: flex;
+}
+
+#section-a h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    border: 1px white;
+}
+
+#section-a .box1,.box2,.box3 {
+    color: white;
+    padding: 25px;
+    border: 1px solid;
+    opacity: 50%;
+    
+}
+#section-a .box1:hover,.box2:hover,.box3:hover{
+    opacity: 100%;
+}
+.box2{
+    background-color: white;
+    color: #E8A0BF;
+    border: pink;
+}
+
+.infra img{
+    height: 300px;
+    width: auto;
+    margin: 30px;
+    border-radius: 10px;
+    border: 3px solid;
+    
+}
+.infra img:hover{
+   opacity: 80%;
+    
+}
+.infra{
+    color: white;
+    display: flex;
+    background:#E8A0BF ;
+    flex-direction: row-reverse;
+    
+}
+.infratext{
+    opacity: 50%;
+    padding: 20px;
+    font-size: 18px;
+}
+.infratext h3{
+    text-transform: uppercase;
+}
+.infratext:hover{
+    opacity: 100%;
+}
